@@ -1,0 +1,36 @@
+# 🤖 AI Agent with n8n - My First Intelligent Automation Project
+
+This is my **first AI agent**, created as a leap into the world of automation and intelligent systems. Built using [n8n](https://n8n.io/), this workflow demonstrates how to set up an AI-powered assistant that responds to messages and can perform tasks such as web search and calculations.
+
+## 🧠 Features
+
+- Uses **OpenAI Chat Model** for natural language understanding
+- Maintains **conversation context** using Simple Memory
+- Supports real-time responses to chat messages
+- Integrates tools like:
+  - 🔍 **SerpAPI** for search-based tasks
+  - 🧮 **Calculator** for numeric computation
+
+## 🗺️ Workflow Diagram
+
+### Main AI Flow
+![Main Flow](./bdf75d9e-3647-4ad6-858b-aaee8dfec4c3.jpeg)
+
+### Tool Integration
+![Tools Flow](./2a819043-5e29-4542-a794-4c710dc692f8.jpg)
+
+> These images show how the AI agent receives messages, uses memory, and routes queries to the appropriate tools.
+
+## 🧰 Technologies Used
+
+- **n8n**: Low-code automation tool to build workflows
+- **OpenAI API**: Powers the chat-based model
+- **SerpAPI**: Enables real-time search
+- **Calculator Tool**: For basic arithmetic and numeric responses
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
